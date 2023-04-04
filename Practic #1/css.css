@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    height: 82px;
+    width: 100%;
+}
+
+header div.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5d8900;
+}
+
+nav{
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 143px;
+}
+
+div.container{
+    margin: 0 auto;
+}
+
+footer{
+    height: 82px;
+    width: 100%;
+}
+
+footer div.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5d8900;
+}
+
+div.parent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+div.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+    font-family: Inter, sans-serif;
+    width: 213px;
+    height: 258px;
+    background-color: #ff6969;
+    margin-top: 73px;
+    margin-left: 184px;
+}
+
+div.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-family: Inter, sans-serif;
+    width: 213px;
+    height: 258px;
+    background-color: #a0ff90;
+    margin-top: 73px;
+    margin-left: 96px;
+}
+
+div.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-family: Inter, sans-serif;
+    width: 213px;
+    height: 258px;
+    background-color: #77ffff;
+    margin-top: 73px;
+    margin-left: 96px;
+    margin-right: 185px;
+}
+
+div.box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-family: Inter, sans-serif;
+    margin-left: 184px;
+    margin-top: 85px;
+    margin-bottom: 73px;
+    width: 213px;
+    height: 258px;
+    background-color: #5cb1ff;
+}
+
+div.box5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+    font-family: Inter, sans-serif;
+    margin-left: 96px;
+    margin-top: 85px;
+    margin-bottom: 73px;
+    width: 213px;
+    height: 258px;
+    background-color: #de5aff;
+}
+
+div.box6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+    font-family: Inter, sans-serif;
+    margin-right: 185px;
+    margin-left: 96px;
+    margin-top: 85px;
+    margin-bottom: 73px;
+    width: 213px;
+    height: 258px;
+    background-color: #ff3389;
+}
