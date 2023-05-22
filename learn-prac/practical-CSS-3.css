@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.all {
+    background-color: #B6B6B6;
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.completed {
+    background-color: #36BA43;
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.lost {
+    background-color: #CE4646;
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.button {
+    margin-top: 8px;
+    flex-wrap: wrap;
+    width: 100px;
+}
+
+.done,
+.delete {
+    margin: 3px;
+    color: white;
+    width: 90px;
+    height: 30px;
+}
+
+.done {
+    background-color: #36BA43;
+}
+
+.delete {
+    background-color: #DC3434;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.container {
+    display: block;
+}
+
+.content {
+    margin: 10px
+}
+
+.black,
+.red,
+.green {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 1px;
+    margin-bottom: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.black {
+    background-color: #D9D9D9;
+    border-left: 3px solid #000000;
+}
+
+.red {
+    background-color: #F8ADAD;
+    border-left: 3px solid #DE2525;
+}
+
+.green {
+    background-color: #C3D2AE;
+    border-left: 3px solid #6EC843;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.discription {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.date {
+    font-size: 13px;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    border-top: 1px solid black;
+}
